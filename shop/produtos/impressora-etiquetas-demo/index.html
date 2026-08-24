@@ -3,65 +3,85 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Simulação de landing page do Shop Elo Firme para uma impressora térmica de etiquetas.">
-    <title>Impressora térmica de etiquetas — Simulação | Shop Elo Firme</title>
+    <meta name="description" content="Uma forma mais simples de organizar as etiquetas dos seus pedidos — demonstração Shop Elo Firme.">
+    <title>Mais ordem para cada pedido | Shop Elo Firme</title>
     <link rel="stylesheet" href="../../styles.css">
   </head>
-  <body>
+  <body id="topo">
     <header class="site-header">
       <a class="brand" href="../../" aria-label="Shop Elo Firme, início">ELO FIRME <span>/ SHOP</span></a>
-      <span class="environment">SIMULAÇÃO</span>
+      <nav aria-label="Navegação da oferta">
+        <a href="#para-quem">Para quem é</a>
+        <a href="#como-ajuda">Como ajuda</a>
+        <a class="nav-cta" href="#proximo-passo" data-track="demo-nav-cta">Conhecer a solução</a>
+      </nav>
     </header>
 
     <main>
-      <section class="product-hero">
-        <div class="product-copy">
-          <p class="eyebrow">Landing demonstrativa · produto em validação</p>
-          <h1>Organize suas etiquetas sem transformar cada envio em retrabalho.</h1>
-          <p class="lead">Uma página de produto deve começar pelo contexto de uso: o que está dificultando a rotina, para quem a solução faz sentido e qual é o próximo passo.</p>
-          <div class="notice" role="status"><strong>Simulação técnica.</strong> Este produto não está à venda nesta página e o botão abaixo não possui link de afiliado ativo.</div>
-          <a class="button" href="#proxima-acao" data-track="demo-cta">Continuar para a próxima ação</a>
-        </div>
-        <aside class="product-card" aria-label="Resumo do produto demonstrativo">
-          <div class="product-mark">ETIQUETAS</div>
-          <p class="card-kicker">Exemplo de oferta</p>
-          <h2>Impressora térmica</h2>
-          <p>Produto usado apenas para testar a estrutura da landing, a hierarquia de informação e o rastreamento do CTA.</p>
-          <dl><div><dt>Estado</dt><dd>Em validação</dd></div><div><dt>Destino</dt><dd>Não configurado</dd></div><div><dt>Campanha</dt><dd>SHOP-DEMO-001</dd></div></dl>
-        </aside>
-      </section>
-
-      <section class="section" id="proxima-acao">
-        <div class="section-heading"><p class="eyebrow">Estrutura da oferta</p><h2>O que será validado antes de publicar.</h2></div>
-        <div class="steps">
-          <article class="step"><span>01</span><h3>Dor</h3><p>Há evidência suficiente de que pequenos vendedores enfrentam esse retrabalho?</p></article>
-          <article class="step"><span>02</span><h3>Fit</h3><p>O produto resolve a dor específica, com uso e economia verificáveis?</p></article>
-          <article class="step"><span>03</span><h3>Oferta</h3><p>Existe link individual, disclosure, destino e campanha prontos para medição?</p></article>
-        </div>
-        <div class="test-result" id="resultado-teste">
-          <p class="eyebrow">Resultado do teste SHOP-TEST-001</p>
-          <h2>Jornada técnica aprovada; venda comercial bloqueada.</h2>
-          <p>O pipeline foi percorrido com um produto-ficção. A página, o CTA e o registro de campanha funcionaram. Pesquisa real de demanda, fornecedor, checkout, pagamento e entrega não foram simulados como evidência comercial.</p>
-          <div class="status-grid" aria-label="Status das etapas do pipeline">
-            <span><b>P0</b> PASS · enquadramento</span><span><b>P1–P4</b> BLOQUEADO · evidência real</span><span><b>P5</b> PASS · landing/QA técnico</span><span><b>P6</b> BLOQUEADO · mídia não aprovada</span><span><b>P7</b> PASS · CTA sintético</span><span><b>P8–P9</b> BLOQUEADO · sem checkout/fulfillment</span><span><b>P10</b> PASS · decisão registrada</span>
+      <section class="sales-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Organização para quem vende online</p>
+          <h1>Menos improviso na hora de preparar cada pedido.</h1>
+          <p class="lead">Quando as etiquetas se acumulam, uma rotina simples pode virar retrabalho. Uma impressora térmica ajuda a deixar essa etapa mais rápida, legível e previsível.</p>
+          <div class="hero-actions">
+            <a class="button" href="#proximo-passo" data-track="demo-hero-cta">Quero entender a solução</a>
+            <span class="quiet-note">Demonstração sem oferta ativa</span>
           </div>
         </div>
-        <div class="next-action">
-          <p class="eyebrow">Próxima ação do pipeline</p>
-          <h2>Substituir a simulação por uma oportunidade aprovada.</h2>
-          <p>Quando o EEN aprovar uma oportunidade, esta rota receberá o link de afiliado ou associado, a copy final, a campanha e os eventos reais.</p>
-          <a class="text-link" href="../../" data-track="demo-back-home">Voltar ao Shop →</a>
+        <div class="product-visual" aria-label="Representação demonstrativa de uma impressora térmica de etiquetas">
+          <div class="visual-glow"></div>
+          <div class="printer"><div class="printer-top"></div><div class="printer-slot"><span></span></div><div class="printer-label">PEDIDO<br><strong>PRONTO</strong></div><div class="printer-light"></div></div>
+          <p>Imagem conceitual do produto</p>
         </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Benefícios resumidos">
+        <div><strong>Mais clareza</strong><span>etiquetas legíveis e organizadas</span></div>
+        <div><strong>Menos etapas</strong><span>uma rotina mais direta no despacho</span></div>
+        <div><strong>Mais controle</strong><span>cada pedido identificado no lugar certo</span></div>
+      </section>
+
+      <section class="section sales-section" id="para-quem">
+        <div class="section-heading"><p class="eyebrow">Talvez você reconheça esta rotina</p><h2>O pedido está pronto, mas a expedição ainda toma tempo.</h2></div>
+        <div class="pain-grid">
+          <article><span>01</span><h3>Pedidos crescendo</h3><p>O volume aumentou e a organização que funcionava antes começou a falhar.</p></article>
+          <article><span>02</span><h3>Impressões improvisadas</h3><p>Folhas, recortes e ajustes manuais consomem atenção em uma tarefa repetitiva.</p></article>
+          <article><span>03</span><h3>Erros que custam caro</h3><p>Uma etiqueta ilegível ou trocada pode atrasar o envio e gerar retrabalho.</p></article>
+        </div>
+      </section>
+
+      <section class="solution-section" id="como-ajuda">
+        <div class="solution-copy"><p class="eyebrow">Uma solução para a etapa certa</p><h2>Feita para transformar impressão e despacho em uma sequência mais simples.</h2><p>O valor não está apenas no equipamento. Está em reduzir pequenas decisões e manter a identificação do pedido próxima da rotina de quem separa, embala e envia.</p></div>
+        <div class="benefit-list">
+          <div><b>01</b><p><strong>Instalação sem complicação</strong><br>Uma alternativa compacta para espaços de trabalho menores.</p></div>
+          <div><b>02</b><p><strong>Leitura mais fácil</strong><br>Informações impressas com clareza para a etapa de conferência.</p></div>
+          <div><b>03</b><p><strong>Ritmo mais previsível</strong><br>Menos improviso quando o número de pedidos aumenta.</p></div>
+        </div>
+      </section>
+
+      <section class="section fit-section">
+        <div class="section-heading"><p class="eyebrow">Antes de escolher</p><h2>Esta solução faz sentido para você?</h2></div>
+        <div class="fit-grid">
+          <div class="fit-yes"><h3>Pode fazer sentido se você:</h3><ul><li>vende produtos e prepara pedidos com frequência;</li><li>precisa de etiquetas mais legíveis e padronizadas;</li><li>quer reduzir recortes e ajustes manuais.</li></ul></div>
+          <div class="fit-no"><h3>Talvez não seja prioridade se você:</h3><ul><li>envia poucos pedidos e a rotina atual já funciona;</li><li>procura uma solução para outro tipo de impressão;</li><li>ainda não definiu como organiza seus pedidos.</li></ul></div>
+        </div>
+      </section>
+
+      <section class="decision-section" id="proximo-passo">
+        <p class="eyebrow">Próximo passo</p>
+        <h2>Escolha com contexto, não apenas pela aparência do produto.</h2>
+        <p>Esta é uma demonstração da experiência de compra do Shop Elo Firme. A oferta, o preço e o destino ainda serão definidos depois da validação de demanda e do parceiro comercial.</p>
+        <a class="button button-light" href="#topo" data-track="demo-final-cta">Voltar ao início</a>
+        <small>Simulação de landing page. Não há venda, comissão, checkout ou link de afiliado ativo nesta página.</small>
       </section>
     </main>
 
-    <footer><span>© 2026 Elo Firme · Shop</span><span>Sem comissão · sem campanha ativa</span></footer>
+    <footer><span>© 2026 Elo Firme · Shop</span><span>Curadoria clara para decisões melhores</span></footer>
     <script>
       document.querySelectorAll('[data-track]').forEach((element) => {
         element.addEventListener('click', () => {
-          const eventName = element.dataset.track;
           window.shopEvents = window.shopEvents || [];
-          window.shopEvents.push({ event: eventName, campaign: 'SHOP-DEMO-001', at: new Date().toISOString() });
+          window.shopEvents.push({ event: element.dataset.track, campaign: 'SHOP-TEST-001', at: new Date().toISOString() });
         });
       });
     </script>
