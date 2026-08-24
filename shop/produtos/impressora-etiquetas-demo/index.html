@@ -8,30 +8,27 @@
     <link rel="stylesheet" href="../../styles.css">
   </head>
   <body id="topo">
+    <div class="sales-bar">Uma rotina de expedição mais organizada começa na identificação do pedido.</div>
     <header class="site-header">
-      <a class="brand" href="../../" aria-label="Shop Elo Firme, início">ELO FIRME <span>/ SHOP</span></a>
-      <nav aria-label="Navegação da oferta">
-        <a href="#para-quem">Para quem é</a>
-        <a href="#como-ajuda">Como ajuda</a>
-        <a class="nav-cta" href="#proximo-passo" data-track="demo-nav-cta">Conhecer a solução</a>
-      </nav>
+      <a class="brand" href="../../" aria-label="Shop Elo Firme, início">SHOP <span>×</span> ELO FIRME</a>
+      <span class="trust-note">Curadoria independente · demonstração</span>
     </header>
 
     <main>
-      <section class="sales-hero">
+      <section class="sales-hero" id="inicio">
         <div class="hero-copy">
-          <p class="eyebrow">Organização para quem vende online</p>
-          <h1>Menos improviso na hora de preparar cada pedido.</h1>
-          <p class="lead">Quando as etiquetas se acumulam, uma rotina simples pode virar retrabalho. Uma impressora térmica ajuda a deixar essa etapa mais rápida, legível e previsível.</p>
+          <p class="eyebrow">Para quem vende e envia todos os dias</p>
+          <h1>Seu pedido pronto. Sua expedição no ritmo certo.</h1>
+          <p class="lead">Quando a etiqueta sai legível e no formato certo, a conferência fica mais simples — e o despacho deixa de depender de improviso.</p>
           <div class="hero-actions">
-            <a class="button" href="#proximo-passo" data-track="demo-hero-cta">Quero entender a solução</a>
-            <span class="quiet-note">Demonstração sem oferta ativa</span>
+            <a class="button" href="#como-ajuda" data-track="demo-hero-cta">Ver como funciona <span>↓</span></a>
+            <span class="quiet-note">Sem promessa exagerada. Só o que importa na rotina.</span>
           </div>
         </div>
         <div class="product-visual" aria-label="Representação demonstrativa de uma impressora térmica de etiquetas">
-          <div class="visual-glow"></div>
+          <span class="visual-tag">EM DESTAQUE</span>
           <div class="printer"><div class="printer-top"></div><div class="printer-slot"><span></span></div><div class="printer-label">PEDIDO<br><strong>PRONTO</strong></div><div class="printer-light"></div></div>
-          <p>Imagem conceitual do produto</p>
+          <p>Imagem conceitual · produto em análise</p>
         </div>
       </section>
 
@@ -42,7 +39,7 @@
       </section>
 
       <section class="section sales-section" id="para-quem">
-        <div class="section-heading"><p class="eyebrow">Talvez você reconheça esta rotina</p><h2>O pedido está pronto, mas a expedição ainda toma tempo.</h2></div>
+        <div class="section-heading"><p class="eyebrow">O problema não é só imprimir</p><h2>É manter o pedido certo no lugar certo.</h2></div>
         <div class="pain-grid">
           <article><span>01</span><h3>Pedidos crescendo</h3><p>O volume aumentou e a organização que funcionava antes começou a falhar.</p></article>
           <article><span>02</span><h3>Impressões improvisadas</h3><p>Folhas, recortes e ajustes manuais consomem atenção em uma tarefa repetitiva.</p></article>
@@ -71,12 +68,13 @@
         <p class="eyebrow">Próximo passo</p>
         <h2>Escolha com contexto, não apenas pela aparência do produto.</h2>
         <p>Esta é uma demonstração da experiência de compra do Shop Elo Firme. A oferta, o preço e o destino ainda serão definidos depois da validação de demanda e do parceiro comercial.</p>
-        <a class="button button-light" href="#topo" data-track="demo-final-cta">Voltar ao início</a>
+        <a class="button button-light" href="#inicio" data-track="demo-final-cta">Rever a solução <span>↑</span></a>
         <small>Simulação de landing page. Não há venda, comissão, checkout ou link de afiliado ativo nesta página.</small>
       </section>
     </main>
 
     <footer><span>© 2026 Elo Firme · Shop</span><span>Curadoria clara para decisões melhores</span></footer>
+    <a class="mobile-cta" href="#proximo-passo" data-track="demo-mobile-cta">Conhecer a solução <span>↓</span></a>
     <script>
       document.querySelectorAll('[data-track]').forEach((element) => {
         element.addEventListener('click', () => {
