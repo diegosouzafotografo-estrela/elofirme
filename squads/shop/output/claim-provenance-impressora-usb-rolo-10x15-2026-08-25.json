@@ -1,0 +1,11 @@
+{
+  "source_url": "https://shopee.com.br/Impressora-De-Etiqueta-T%C3%A9rmica-Envio-Correios-Shopee-Usb-Rolo-10x15-i.439338146.23794074143",
+  "captured_at": "2026-08-25",
+  "claims": [
+    {"claim": "impressora de etiqueta térmica", "class": "source_fact", "source": "page_title", "public_use": "allowed_with_disclosure"},
+    {"claim": "USB", "class": "source_fact", "source": "page_title", "public_use": "allowed_with_disclosure"},
+    {"claim": "rolo 10x15", "class": "source_fact", "source": "page_title", "public_use": "allowed_with_disclosure"},
+    {"claim": "reduz etapas e retrabalho", "class": "hypothesis", "source": "pain_research_plus_sexy_canvas", "public_use": "test_only_no_guarantee"},
+    {"claim": "mais rápida, econômica ou universal", "class": "unverified", "source": null, "public_use": "prohibited"}
+  ]
+}
